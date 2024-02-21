@@ -1,0 +1,70 @@
+/* 
+pseudo class : fake class
+like :hover
+ */
+
+ a{
+    color: red;
+    text-decoration: none;
+ }
+
+ a:hover{
+    color:rosybrown;
+ }
+
+ a:visited{
+    color: blue;
+ }
+
+ .checkbox:checked{
+    display: none;
+
+ }
+
+ .checkbox:checked + label{
+    color: red;
+    font-size: 30px;
+
+ }
+ 
+
+ .two{
+    background-color: gainsboro;
+    width:100px ;
+    height:100px ;
+ }
+
+
+ /* pseudo element */
+/* if we have no access on html file we  use pseduo element */
+
+ /* .one span{
+    /* background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+ } */ 
+
+ .tw::first-letter{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+ }
+
+
+ /* we want to color the frist line in the viewport  */
+
+ .three::first-line{
+   color: brown;
+ }
+
+
+ /* selection : the default is blue , 
+ if we want to change the default as it not suitable  for the colors in website  */
+
+
+.four::selection{
+background-color: black;
+color: yellow;
+}

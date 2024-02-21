@@ -1,0 +1,23 @@
+.html,.css,.js{
+    width: 100px;
+    height: 25px;
+    padding: 15px 15px;
+    position:absolute ;
+    
+}
+.html{
+    background-color:cadetblue;
+    /* margin-top:50px; */
+    z-index:20;
+}
+.css{
+    background-color: bisque;
+}
+.js{
+    background-color:brown;
+}
+/* z-index : doesnot work without position 
+highest z , will appear 
+-1: to make element at the last poition 
+ */
+

@@ -1,0 +1,64 @@
+/* '
+static : constant in it's position 
+relative :move depend on itself
+absolute: move depend on the page 
+fixed : move depend on page and still in it's position while scrolling
+sticky: when reach at this element , it will be fixed
+*/
+
+body{
+    height: 5000px;
+    position: relative;
+}
+.html,.css,.parent .child{
+    width: 100px;
+    height: 25px;
+    padding: 15px 20px;
+
+  
+    
+}
+.html{
+    background-color:cadetblue;
+    /* margin-top:50px; */
+    position: static;
+    left: 30px;
+}
+.css{
+    background-color: bisque;
+}
+
+/* position absolute  */
+.gra{
+
+    width: 800px;
+    height: 500px;
+    background-color:burlywood;
+    position: relative;
+}
+.parent{
+
+    width: 500px;
+    height: 300px;
+    background-color:brown;
+    position: relative;
+}
+
+.parent .child{
+    background-color: darkgray;
+    position: absolute;
+}
+
+/* child move according it parent , we must put position relative to make the child move relative to parent ,
+if not , it will move according the grandparent 
+ */
+
+ /* sticky position */
+
+ /* div{
+    background-color: red;
+    color: aliceblue;
+    height: 60px;
+    position:sticky;
+    top: 0;
+ } */

@@ -1,0 +1,15 @@
+/* list style type : we can implement it by before and after 
+   list style position : if we want to style the list with it's icon 
+   list style image: use image instead icon 
+    list style: list style type , list style position, list style image;
+
+*/
+
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin-left: 0;
+}
+
+/* Use this in nav bar , we have some links in nav , drop down list  */
